@@ -70,3 +70,57 @@ figure{
 		 }
 
 /* fin de Barra de texto en img.*/
+
+/* VARIEDADES */
+.altura{
+    height: 400px;
+    width: 1000px;
+}
+#j{
+    height: 400px;
+    width: 300px;
+}
+.button-container{
+    display: inline-block;
+    position: relative;
+}
+.button-container a{
+    position: absolute;
+    bottom: 4em;
+	left: 85px;
+    right: 4em;
+    background-color: #ec1c44;
+    border-radius: 1.5em;
+    color: white;
+    text-transform: uppercase;
+    padding: 1em 1.5em;
+	
+}
+.texto{
+    position: absolute;
+    top: 235px;
+    left: 100px;
+    font-family: sans-serif;
+            font-weight: bolder;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+.texto1{
+    position: absolute;
+    top: 235px;
+    left: 85px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color:#dbdbdb;
+}
+.texto2{
+    position: absolute;
+    top: 235px;
+    left: 85px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+}
+/* FIN DE VARIEDADES */
