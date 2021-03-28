@@ -129,3 +129,13 @@ figure{
     color: rgb(0, 0, 0);
 }
 /* FIN DE VARIEDADES */
+/***********************
+STYLO DE LETRAS DE MENU
+***********************/
+#v{
+	color: #ec1c44;
+	font: oblique bold 120% cursive;
+}
+/******************************
+FIN DE STYLO DE LETRAS DE MENU
+******************************/

@@ -9,23 +9,39 @@
     <!-- link css -->
     <link rel="stylesheet" href="css/bootstrap-flex.css">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--script de carrousel-->
+    <link rel="stylesheet" href="flexslider.css" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <script src="js/jquery.flexslider.js"></script>
+    <script type="text/javascript" charset="utf-8">
+    $(window).load(function() {
+      $('.flexslider').flexslider({
+        touch: true,
+        pauseOnAction: false,
+        pauseOnHover: false,
+      });
+    });
+  </script>
+    <!--fin de script-->
   </head>
   <body>
 
     <!-- MENÚ -->
     <div class="container-fluid navbar-fixed-top">
       <div class="row flex-items-xs-between menu-1 flex-items-xs-middle">
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-1" class="btn btn-danger" role="button" aria-pressed="true">1</a>
+        <div class="col-xs-6">
+          <a data-scroll href="#sec-1" class="btn" role="button" aria-pressed="true"><img src="img/logo2.png" alt="" height="45"></a>
         </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-2" class="btn btn-danger" role="button" aria-pressed="true">variedades</a>
+        <div class="col-xs">
+          <a data-scroll href="#sec-2" class="btn" role="button" aria-pressed="true" id="v">Variedades</a>
         </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-3" class="btn btn-danger" role="button" aria-pressed="true">t-shert</a>
+        <div class="col-xs">
+          <a data-scroll href="#sec-3" class="btn" role="button" aria-pressed="true" id="v">T-shirt</a>
         </div>
-        <div class="col-xs-2">
-          <a data-scroll href="#sec-4" class="btn btn-danger" role="button" aria-pressed="true">4</a>
+        <div class="col-xs">
+          <a data-scroll href="#sec-4" class="btn" role="button" aria-pressed="true" id="v">4</a>
         </div>
       </div>
     </div>
@@ -35,8 +51,28 @@
     <div class="container-fluid">
       <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
         <div class="row">
-          <div class="col-xs-12"><h1>SECCION 1</h1></div>
-          <div class="col-xs-12"><h3>Sección 1</h3></div>
+          <div class="flexslider">
+            <ul class="slides">
+              <li>
+                <img src="img/1.jpg" alt="">
+                <section class="flex-caption">
+                  <p>LACOSTE L1212 CLASSIC FIT ROJO</p>
+                </section>
+              </li>
+              <li>
+                <img src="img/2.jpg" alt="">
+                <section class="flex-caption">
+                  <p>POLO DE HOMBRE BÁSICO GRIS CALVIN KLEIN</p>
+                </section>
+              </li>
+              <li>
+                <img src="img/3.jpg" alt="">
+                <section class="flex-caption">
+                  <p>CALVIN KLEIN CELESTE PARA HOMBRE</p>
+                </section>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
