@@ -4,21 +4,24 @@ body{
 .menu-1{
 	height: 60px;
 	background: whitesmoke;
-	opacity: 80%;
 }
-.slider-1, .slider-2, .slider-3, .slider-4{
+.slider-1, .slider-2, .slider-4{
 	height: 100vh;
 	text-align: center;
 }
 .slider-1{
-	background: #ffffff;
+	background: white;
 }
 .slider-2{
-	background: #ffffff;
+	background: white;
 }
 .slider-3{
-	background: #ffffff;
+	background: white;
+	height: 166vh;
+	text-align: center;
+
 }
+
 .slider-4{
 	background: #ffffff;
 }
