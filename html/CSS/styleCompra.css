@@ -1,0 +1,291 @@
+::selection
+{
+	background: #ec1c44;
+	color: #FFFFFF;
+}
+body{
+	color:#fff;
+}
+
+.altura{
+    height: 150px;
+}
+
+.slider-4{
+	height: 80vh;
+	text-align: center;
+}
+.slider-4{
+	background: white;
+}
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+	padding: 10px;
+}
+
+
+
+/****************
+   DISPONIBLE
+****************/
+
+.a-size-medium {
+    font-size: 17px!important;
+    line-height: 1.255!important;
+}
+.a-color-success {
+    color: #007600!important;
+}
+/**********
+   PRECIO
+**********/
+.a-size-medium {
+    text-rendering: optimizeLegibility;
+}
+.a-size-medium {
+    font-size: 17px!important;
+    line-height: 1.255!important;
+}
+.a-color-price {
+    color: #B12704!important;
+}
+/*********
+   boton
+*********/
+.l{
+    font-family: fantasy;
+}
+.car-price{
+    position: absolute;
+    top: 77px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+.altura{
+    height: 290px;
+}
+.altura1{
+    height: 850px;
+}
+.q{
+    color: red;
+}
+.slider-3{
+	height: 150vh;
+  
+}
+.slider-4{
+    height: 100vh;
+    
+}
+#z{
+    color: #59B0E5;
+}
+#t{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.s{
+    color: black;
+}
+
+
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+    padding: 10px;
+}
+.altura{
+    height: 100px;
+ 
+}
+#n{
+    color: black;
+}
+.yan{
+    height: 100vh;
+}
+.espa{
+    height: 40px;
+}
+
+/************
+    zoom
+************/
+
+.zoom{
+
+    -webkit-transition: all .1s ease-in-out;
+    -moz-transition: all .1s ease-in-out;
+    -o-transition: all .1s ease-in-out;
+    -ms-transition: all .1s ease-in-out;
+
+}
+
+.zoom:hover{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    
+}
+.altura1{
+    height: 30px;
+    
+}
+
+#d{
+    border-top: 1px solid rgb(175, 175, 175);
+    border-right: 1px solid rgb(175, 175, 175);
+    border-bottom: 1px solid rgb(175, 175, 175);
+    border-left: 1px solid rgb(175, 175, 175);
+    top: 100px;
+  }
+/*titulo de img*/
+#a{
+	color: black;
+	font-family: sans-serif;
+			font-weight: bolder;
+}
+/*titulo de img*/
+
+/*spam*/
+#col{
+color: #ec1c44;    
+}
+/*spam*/
+
+/*stylo de precio*/
+#iz{
+    text-align: left;
+    color:#ec1c44;
+    font: oblique bold 170% cursive;
+  
+}
+/*stylo de precio*/
+
+/*stylo de letras bajo titilo*/
+.xl{
+    text-align: left; 
+}
+/*stylo de letras bajo titilo*/
+
+/*puntos de separacion*/
+#nb{
+   color: white;
+}
+/*puntos de separacion*/
+
+/*pocicionar div*/
+#cc{
+    top: -115px;
+}
+/*pociciomat div */
+
+/*boton*/
+.boton_personalizado{
+    text-decoration: none;
+    padding: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #ec4a6b;
+    border-radius: 6px;
+    border: 2px solid #ec1c44;
+    
+  }
+  .boton_personalizado:hover{
+    color: #ec4a6b;
+    background-color: #ffffff;
+  }
+  /*boton*/
+
+  /*boton*/
+.boton_personalizado1{
+    text-decoration: none;
+    padding: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #fafafa;
+    border-radius: 30px;
+    border: 2px solid #3b5998;
+    
+  }
+  .boton_personalizado1:hover{
+    color: #000000;
+    background-color: #3b5998;
+  }
+  /*boton*/
+
+  /*boton*/
+.boton_personalizado2{
+    text-decoration: none;
+    padding: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #d63e8f;
+    
+  }
+  .boton_personalizado2:hover{
+    color: #000000;
+    background-color: #d63e8f;
+  }
+  /*boton*/
+
+  /*boton*/
+.boton_personalizado3{
+    text-decoration: none;
+    padding: 9px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: 2px solid #55acee;
+    
+  }
+  .boton_personalizado3:hover{
+    color: #000000;
+    background-color: #55acee;
+  }
+  /*boton*/
+
+ .yas{
+     height: 50px;
+     top: 20px;
+     left: 33px;
+ }
+
+
+.altura{
+    height: 100px;
+}
+#cv{
+    color: black;
+}
+#xx{
+    top: 200px;
+}
+#xm{
+    top: 207px;
+}
+#xb{
+    top: 230px;
+}
+/*envio*/
+#cz{
+    top: 250px;
+    
+    border-top: 1px solid #000000;
+    border-right: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-left: 1px solid #000000;
+}
+/*jhhj*/

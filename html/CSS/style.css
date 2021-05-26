@@ -1,0 +1,293 @@
+/*********************************
+1. tarjeta de credito
+*********************************/
+::selection
+{
+	background: rgb(255, 0, 0);
+	color: #FFFFFF;
+}
+.creditCardForm {
+    max-width: 700px;
+    background-color: b;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+.creditCardForm .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    
+}
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+.creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+.creditCardForm .CVV {
+    width: 35%;
+}
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+.creditCardForm #expiration-date {
+    width: 49%;
+}
+.creditCardForm #credit_cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+.transparent {
+    opacity: 0.2;
+}
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
+#visa{
+    height: 30px;
+    width: 30px;
+}
+#mastercard{
+    height: 30px;
+    width: 30px;
+}
+#paypal{
+    height: 30px;
+    width: 30px;
+}
+#ñ{
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: red;
+    color: white;;
+}
+/*******************
+ ventana emergente
+*******************/
+.ventana{
+    background: #ec1c44;
+    width: 30%;
+    color: black;
+    font-family: fantasy;;
+    font-size: 30px;
+    text-align: center;
+    padding: 33px;
+    min-height: 250px;
+    border-radius: 22px;
+    position: absolute;
+    left: 34%;
+    top: 35%;
+    display: none;
+
+}
+#cerrar{
+    position: absolute;
+    right: 3px;
+    top: 1px;
+}
+
+.footer{
+	background: #444;
+	color:#fff;
+	text-align: center;
+    padding: 10px;
+}
+
+body{
+	color:#fff;
+}
+.menu-1{
+	height: 60px;
+	background: whitesmoke;
+}
+
+.slider-1{
+	background: white;
+	height: 205vh;
+	text-align: center;
+    color: black;
+}
+.footer{
+	background: whitesmoke;
+	color:rgb(0, 0, 0);
+	text-align: center;
+	padding: 10px;
+}
+#t{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#v{
+	color: #ec1c44;
+	font: oblique bold 120% cursive;
+}
+		/************
+		desplegable
+		************/
+        #menu ul {
+            list-style:none;
+            margin:0;
+            padding:0;
+           }
+        
+           #menu ul li {
+            position:relative;
+            float:left;
+            margin:0;
+            padding:0;
+           }
+           
+           /* efecto al pasar el ratón por las letras del menu */
+           
+           #menu ul li:hover {
+            background: whitesmoke;
+           }
+           
+        #menu ul ul {
+            display:none;
+            position:absolute;
+            top:100%;
+            left:0;
+            
+            padding:0;
+           }
+           
+           
+           #menu ul ul li {
+            float:none;
+            width:150px
+           }
+           
+           #menu ul ul a {
+            line-height:120%;
+            padding:10px 15px;
+           }
+           
+           #menu ul li:hover > ul {
+            display:block;
+           }
+        /******************
+        fin de desplegable
+        ******************/
+        /*Barra de texto en img.*/
+
+
+figure{
+	margin: 0;
+	display: inline-block;
+	
+	position: relative;
+	}
+	figure{
+        margin: 0;
+        display: inline-block;
+        
+        position: relative;
+        }
+        
+        figcaption{
+        color:white;
+        display: none;
+        background:rgba(0,0,0, 0.7);
+        position:absolute;
+        left:0px;
+        bottom:0px;
+        width:100%;
+        padding:5%;
+        }
+        
+        figure:hover figcaption{
+        display: block;
+		}
+		.menuCSS3 ul {
+			display: flex;
+			padding: 0;
+			margin: 0;
+			list-style: none;
+		}
+		.j{
+			height: 250px;
+			width: 200px;
+		 }
+
+/* fin de Barra de texto en img.*/
+hr {
+	height: 2px;
+	background-color: black;
+  }
+
+   /*titulo de img*/
+#a{
+	color: black;
+	font-family: sans-serif;
+			font-weight: bolder;
+            
+}
+/*titulo de img*/
+
+#ll{
+    top: 10px;
+}
+
+/************
+    efecto zoom
+    ************/
+
+    .zoom{
+
+        -webkit-transition: all .1s ease-in-out;
+        -moz-transition: all .1s ease-in-out;
+        -o-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+    
+    }
+    
+    .zoom:hover{
+        transform: scale(1.2);
+        -webkit-transform: scale(1.2);
+        
+    }

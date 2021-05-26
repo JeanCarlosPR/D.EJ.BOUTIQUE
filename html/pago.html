@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PAGAR</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/styleCompra.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+
+    <link rel="icon" type="img/png" href="IMG/tarjeta.ico">
+    
+</head>
+
+<body>
+      <!-- SECCIÓN 1 -->
+      <div class="container-fluid">
+        <div class="row flex-items-xs-center slider-1 flex-items-xs-middle" id="sec-1" >
+          <div class="row">
+         
+          </div>
+        </div>
+      </div>
+      <!-- FIN SECCIÓN -->
+
+    <div class="ventana" id="vent">
+        <form>
+        <div id="cerrar">  <a href="javascript:cerrar()"><img src="IMG/cerrar.png" alt="" height="40" width="40"></a></div>
+
+        Gracias Por Preferirnos
+    </div>
+
+     
+
+    <div class="creditCardForm">
+        <div class="heading">
+            <h1>Confirmar compra</h1>
+        </div>
+        <div class="payment">
+            
+                <div class="form-group owner">
+                    <label for="owner">Propietario</label>
+                    <input type="text" class="form-control" id="owner">
+                </div>
+                <div class="form-group CVV">
+                    <label for="cvv">CVV</label>
+                    <input type="text" class="form-control" id="cvv">
+                </div>
+                <div class="form-group" id="card-number-field">
+                    <label for="cardNumber">número de tarjeta</label>
+                    <input type="text" class="form-control" id="cardNumber">
+                </div>
+                <div class="form-group" id="expiration-date">
+                    <label>Fecha de caducidad</label>
+                    <select>
+                        <option value="01">Enero</option>
+                        <option value="02">Febrero</option>
+                        <option value="03">Marzo</option>
+                        <option value="04">Abril</option>
+                        <option value="05">Mayo</option>
+                        <option value="06">Junio</option>
+                        <option value="07">Julio</option>
+                        <option value="08">Agosto</option>
+                        <option value="09">Septiembre</option>
+                        <option value="10">Octubre</option>
+                        <option value="11">Noviembre</option>
+                        <option value="12">Diciembre</option>
+                    </select>
+                    <select>
+                        <option value="17"> 2021</option>
+                        <option value="18"> 2022</option>
+                        <option value="19"> 2023</option>
+                        <option value="20"> 2024</option>
+                        <option value="21"> 2025</option>
+                    </select>
+                </div>
+                <div class="form-group" id="credit_cards">
+                    <img src="IMG/visa.png" id="visa">
+                    <img src="IMG/mastercard.png" id="mastercard">
+                    <img src="IMG/paypal.png" id="paypal">
+                </div>
+          
+                <div class="form-group" id="pay-now">
+                </form>
+                   <a href="javascript:abrir()">
+                    <button  type="submit" class="btn btn-default" id="confirm-purchase">Finalizar Compra</button></a>            </div>
+                    
+                
+            
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="container-fluid footer">
+    
+       
+      <center>
+     
+        <p id="t">servicio al cliente</p>
+       <a href="Nosotros.html">
+       <p  class="zoom">Nosotros</p></a>
+       <a href="porque-comprar.html">
+       <p  class="zoom">¿Porque comprar en Tecnology Center?</p></a>
+       <div class="col-md-4">
+        <ul class="list-inline social-buttons">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-twitter"><img src="img/facebook.png" alt="" width="30" height="30"  class="zoom"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/?hl=es-la">
+              <i class="fab fa-facebook-f"><img src="img/instagram.png" alt="" width="30" height="30"  class="zoom"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://twitter.com/login?lang=es">
+              <i class="fab fa-linkedin-in"><img src="img/gorjeo.png" alt="" width="30" height="30"  class="zoom"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div><h6>Copyright ©     LA SALA.NET-GRUPO PROSS 2020</a></h6></div>
+      </div>
+        </center>
+     
+       
+        <!-- FIN FOOTER -->
+    <!-- The HTML for our form will go here -->
+    <script>
+
+        function abrir(){
+            document.getElementById("vent") .style.display="block";
+        }
+
+        
+        function cerrar(){
+            document.getElementById("vent") .style.display="none";   
+        }    
+
+    </script>
+   
+</body>
+</html>
